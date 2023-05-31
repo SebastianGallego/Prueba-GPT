@@ -1,0 +1,83 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+
+
+  .maps img{
+    height: 50px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+    
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    font-family: arial;
+  }
+
+/* hasta acá la barra Nav */
+
+
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .card-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 18px;
+    color: #666;
+  }
+  
