@@ -4,23 +4,18 @@
 }
 
 
-
 nav {
     display: flex;
     align-items: center;
-    background-color: #f2f2f2;
-    padding: 10px;
+    background-color: #FF8000;
+    padding: 5px;
   }
   
   .logo img {
-    height: 50px;
+    height: 100px;
   }
   
 
-
-  .maps img{
-    height: 50px;
-  }
   
   .menu {
     list-style: none;
@@ -29,25 +24,29 @@ nav {
   }
   
   .menu li {
-    margin-right: 10px;
-    
+    margin-right: 20px;
+  }
+
+  .menu li a:hover {
+    color: rgb(252, 78, 3);
   }
   
   .menu li a {
     text-decoration: none;
     color: #333;
     font-size: 30px;
-    font-family: arial;
+    transition:  0.5s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
 /* hasta acá la barra Nav */
 
 
   .container {
-    width: 100%;
-    max-width: 800px;
+    max-width: 380px;
     margin: 0 auto;
     padding: 20px;
+    
   }
   
   .card {
@@ -56,7 +55,7 @@ nav {
     align-items: center;
     background-color: #f2f2f2;
     border-radius: 10px;
-    padding: 20px;
+    padding: 12px;
   }
   
   .card img {
@@ -72,11 +71,13 @@ nav {
   }
   
   .card-content h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
   }
   
   .card-content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: #666;
   }
